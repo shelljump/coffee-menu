@@ -4,6 +4,27 @@
 
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
 }
 
 main {
@@ -14,18 +35,76 @@ margin-right: auto;
 text-align: center;
 }
 
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
 .menu {
     width: 80%;
+    max-width: 500px;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Wenn alle 4 Seiten den gleichen Wert haben, reicht auch padding: 20px;*/
 }
 
-.flavor {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.flavor,
+.dessert {
     text-align: left;
+    width: 75%;
 }
 
 .price {
     text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
 }
